@@ -1,0 +1,56 @@
+.nav-items img{
+    width: 90px;
+}
+
+.nav-main{
+    background-color: #5FBDFF;
+    width: 100%;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 0 20px;
+    padding: 4px;
+  
+   
+}
+
+
+.nav-login{
+    display: flex;
+    gap: 15vw;
+}
+
+.nav-icons{
+    display: flex;
+    gap: 20px;
+}
+
+
+@media(max-width:600px){
+
+    .nav-items img{
+        width: 30px;
+    }
+.nav-login{
+    display: flex;
+    gap: 8px;
+}
+
+.nav-items{
+    display: flex;
+    gap: 6px;
+    padding: 7px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+}

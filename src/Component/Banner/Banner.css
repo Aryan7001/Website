@@ -1,0 +1,63 @@
+.banner-details{
+    background: url(../Images/Background1.png) no-repeat;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    background-size:cover;
+    left: 55vw;
+    overflow: hidden;
+
+}
+
+.main-banner{
+    position: relative;
+}
+
+.banner{
+    position: absolute;
+    left: 7vw;
+    top: 30vh;
+}
+
+.banner span{
+    color: tomato;
+}
+
+.banner button{
+    padding: 12px;
+    background: whitesmoke;
+    color: red;
+    border: 1px solid black;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.banner button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+@media(max-width:600px){
+
+.banner{
+    position: absolute;
+    top: 3vh;
+    left: 12px;
+    font-size: 12px;
+}
+
+.banner-details{
+    width: 300px;
+    height: 450px;
+    left: 19vw;
+    top: 20vh;
+    background-size: contain;
+    
+}
+
+
+
+}

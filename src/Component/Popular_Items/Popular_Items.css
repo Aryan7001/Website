@@ -1,0 +1,22 @@
+.popular-list img{
+    width: 220px;
+}
+
+.popular-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    margin: 2vw;
+}
+
+.popular-main h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+}
+
+@media(max-width:600px){
+    .popular-list img{
+        width: 100%;
+    }
+}

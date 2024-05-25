@@ -1,0 +1,39 @@
+.main-shop .product-main img{
+    width: 250px;
+    height: 22vh;
+  border-radius: 12px;
+}
+
+.product-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+}
+
+.main-shop img{
+    width: 100%;
+    height: 45vh;
+}
+.main-shop hr{
+font-size: 24px;
+color: yellow;
+padding: 1px;
+background-color: red;
+}
+
+.product-main .item{
+border: 1px solid black;
+}
+
+
+@media(max-width:600px){
+
+.main-shop img{
+height: 25vh;
+}
+.main-shop .product-main img{
+    width: 100%;
+    height: 30vh;
+}
+
+
+}
